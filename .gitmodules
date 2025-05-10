@@ -13,4 +13,4 @@
 [submodule "plugins/StableDiffusion"]
 	path = plugins/StableDiffusion
 	url = https://github.com/huan-yp/StableDiffusion.git
-	branch = v0.0.1
+	branch = v0.0.2

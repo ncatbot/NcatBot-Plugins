@@ -236,9 +236,10 @@
     "StableDiffusion": {
       "name": "StableDiffusion",
       "versions": [
+        "0.0.2",
         "0.0.1"
       ],
-      "latest_version": "0.0.1",
+      "latest_version": "0.0.2",
       "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
       "author": "huan-yp",
       "plugin_dependencies": {},
@@ -315,6 +316,21 @@
           "permission_raise": false,
           "reply": false,
           "metadata": {}
+        },
+        {
+          "name": "tagger",
+          "plugin_name": "StableDiffusion",
+          "description": "分析图像生成提示词",
+          "usage": "/tagger [这里放图片]",
+          "examples": [
+            "/tagger [随便发张图片]",
+            "[随便放张图片] /tagger"
+          ],
+          "tags": [],
+          "permission": "user",
+          "permission_raise": false,
+          "reply": false,
+          "metadata": {}
         }
       ],
       "configs": [
@@ -376,5 +392,5 @@
       "repository": "https://github.com/huan-yp/StableDiffusion"
     }
   },
-  "last_update": "2025-05-10 14:54:03"
+  "last_update": "2025-05-10 17:00:03"
 }
