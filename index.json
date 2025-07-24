@@ -1,4 +1,3 @@
-
 {
   "plugins": {
     "TestPlugin": {
@@ -529,159 +528,194 @@
       ],
       "configs": [],
       "repository": "https://github.com/meowhuan/BilibiliParser"
-    }
-  },
-    "CS2CaseSimulator": {
-      "name": "CS2CaseSimulator",
-      "versions": [
-        "0.0.1"
-      ],
-      "latest_version": "0.0.1",
-      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
-      "author": "Unknown",
-      "plugin_dependencies": {},
-      "tags": [],
-      "homepage": "",
-      "funcs": [
-        {
-          "name": "CS2CaseSimulator",
-          "plugin_name": "CS2CaseSimulator",
-          "description": "",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "user",
-          "permission_raise": false,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "CS2CaseSimulatorHelper",
-          "plugin_name": "CS2CaseSimulator",
-          "description": "",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "user",
-          "permission_raise": false,
-          "reply": false,
-          "metadata": {}
-        }
-      ],
-      "configs": [],
-      "repository": "https://github.com/175062628/CS2CaseSimulator"
     },
-  "BiliSubscribe": {
-      "name": "BiliSubscribe",
+    "Echo": {
+      "name": "Echo",
       "versions": [
         "1.0.0"
       ],
       "latest_version": "1.0.0",
-      "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
-      "author": "Unknown",
+      "description": "这个一个回声机器人🤖",
+      "author": "xb1520",
       "plugin_dependencies": {},
       "tags": [],
       "homepage": "",
       "funcs": [
         {
-          "name": "login",
-          "plugin_name": "BiliSubscribe",
-          "description": "",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "add",
-          "plugin_name": "BiliSubscribe",
-          "description": "添加订阅",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "remove",
-          "plugin_name": "BiliSubscribe",
-          "description": "删除订阅",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "set",
-          "plugin_name": "BiliSubscribe",
-          "description": "设置@全体",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "list",
-          "plugin_name": "BiliSubscribe",
-          "description": "列出订阅",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "push_now",
-          "plugin_name": "BiliSubscribe",
-          "description": "立即推送所有订阅最新动态和直播",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "push_dynamic_now",
-          "plugin_name": "BiliSubscribe",
-          "description": "立即推送所有订阅最新动态",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
-          "reply": false,
-          "metadata": {}
-        },
-        {
-          "name": "help",
-          "plugin_name": "BiliSubscribe",
-          "description": "显示所有指令",
-          "usage": "",
-          "examples": [],
-          "tags": [],
-          "permission": "admin",
-          "permission_raise": true,
+          "name": "echo",
+          "plugin_name": "Echo",
+          "description": "回声机器人",
+          "usage": "直接发送消息<text/image/file>即可",
+          "examples": [
+            "text",
+            "image",
+            "file"
+          ],
+          "tags": [
+            "echo",
+            "test"
+          ],
+          "permission": "user",
+          "permission_raise": false,
           "reply": false,
           "metadata": {}
         }
       ],
       "configs": [],
-      "repository": "https://github.com/meowhuan/BiliSubscribe"
-    },
-  "last_update": "2025-06-08 18:00:18"
+      "repository": "https://github.com/xb1520/Echo"
+    }
+  },
+  "CS2CaseSimulator": {
+    "name": "CS2CaseSimulator",
+    "versions": [
+      "0.0.1"
+    ],
+    "latest_version": "0.0.1",
+    "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+    "author": "Unknown",
+    "plugin_dependencies": {},
+    "tags": [],
+    "homepage": "",
+    "funcs": [
+      {
+        "name": "CS2CaseSimulator",
+        "plugin_name": "CS2CaseSimulator",
+        "description": "",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "user",
+        "permission_raise": false,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "CS2CaseSimulatorHelper",
+        "plugin_name": "CS2CaseSimulator",
+        "description": "",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "user",
+        "permission_raise": false,
+        "reply": false,
+        "metadata": {}
+      }
+    ],
+    "configs": [],
+    "repository": "https://github.com/175062628/CS2CaseSimulator"
+  },
+  "BiliSubscribe": {
+    "name": "BiliSubscribe",
+    "versions": [
+      "1.0.0"
+    ],
+    "latest_version": "1.0.0",
+    "description": "这个作者很懒且神秘,没有写一点点描述,真是一个神秘的插件",
+    "author": "Unknown",
+    "plugin_dependencies": {},
+    "tags": [],
+    "homepage": "",
+    "funcs": [
+      {
+        "name": "login",
+        "plugin_name": "BiliSubscribe",
+        "description": "",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "add",
+        "plugin_name": "BiliSubscribe",
+        "description": "添加订阅",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "remove",
+        "plugin_name": "BiliSubscribe",
+        "description": "删除订阅",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "set",
+        "plugin_name": "BiliSubscribe",
+        "description": "设置@全体",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "list",
+        "plugin_name": "BiliSubscribe",
+        "description": "列出订阅",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "push_now",
+        "plugin_name": "BiliSubscribe",
+        "description": "立即推送所有订阅最新动态和直播",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "push_dynamic_now",
+        "plugin_name": "BiliSubscribe",
+        "description": "立即推送所有订阅最新动态",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      },
+      {
+        "name": "help",
+        "plugin_name": "BiliSubscribe",
+        "description": "显示所有指令",
+        "usage": "",
+        "examples": [],
+        "tags": [],
+        "permission": "admin",
+        "permission_raise": true,
+        "reply": false,
+        "metadata": {}
+      }
+    ],
+    "configs": [],
+    "repository": "https://github.com/meowhuan/BiliSubscribe"
+  },
+  "last_update": "2025-07-24 19:44:45"
 }

@@ -35,3 +35,7 @@
 	url = https://github.com/175062628/CS2CaseSimulator.git
 	branch = b0.0.1
   
+[submodule "plugins/Echo"]
+	path = plugins/Echo
+	url = https://github.com/xb1520/Echo.git
+	branch = b1.0.0
