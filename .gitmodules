@@ -35,3 +35,7 @@
 	url = https://github.com/175062628/CS2CaseSimulator.git
 	branch = b0.0.1
   
+[submodule "plugins/PixivTool"]
+	path = plugins/PixivTool
+	url = https://github.com/manydreams/PixivTool.git
+	branch = b0.0.1
