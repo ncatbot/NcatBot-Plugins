@@ -39,10 +39,10 @@
 	path = plugins/Weather
 	url = https://github.com/pythagodzi11a/Weather.git
 	branch = b0.0.2
-[submodule "plugins/YiYanAPI"]
-	path = plugins/YiYanAPI
-	url = https://github.com/pythagodzi11a/YiYanAPI.git
-	branch = b0.0.1
 [submodule "plugins/ModelChat"]
 	path = plugins/ModelChat
 	url = https://github.com/ouyangyanhuo/ModelChat.git
+[submodule "plugins/YiYanAPI"]
+	path = plugins/YiYanAPI
+	url = https://github.com/pythagodzi11a/YiYanAPI.git
+	branch = b0.0.2
